@@ -1,10 +1,8 @@
-# RESTful API
+# REST full API
 
-This is a RESTful API example based on Node.js and MongoDB, following the **MVC pattern** i.e. Model ~~View~~ Controller.
+This is a RESTful API example based on Node.js and MongoDB,
 
-**Mongoose** is used for Database transactions which is an elegant solution to mongodb object modeling for node.js.
-
-The application is **production ready**, and can be used behind a Nginx reverse proxy securely.
+**mongodb** is used for Database transactions which is an elegant solution to mongodb object modeling for node.js.
 
 ---
 
@@ -29,7 +27,9 @@ PORT=3000
 MONGODB_URI=YOUR MONGODB URI
 DB_NAME=DATABASE NAME OF YOUR CHOICE
 DB_USER=DATABASE USER
-DB_PASS=DATABASE USER PASSWORD 
+DB_PASS=DATABASE USER PASSWORD
+or
+Give full uri productmodel.js page
 ```
 
 Step 4: Start the API by
@@ -38,10 +38,4 @@ Step 4: Start the API by
 npm start
 ```
 
-## Author
 
-- [**Truly Mittal**](https://trulymittal.com)
-
-## License
-
-This project is licensed under the MIT License.
